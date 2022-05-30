@@ -1,17 +1,9 @@
+<<<<<<< HEAD
 # ditonton-flutter-expert-project
+=======
+# Flutter Ditonton App
+>>>>>>> 71070cad2df7dde0a1c1d577eecb5d8f3ce4b6bd
 
-Repository ini merupakan starter project submission kelas Flutter Expert Dicoding Indonesia.
-
----
-
-## Tips Submission Awal
-
-Pastikan untuk memeriksa kembali seluruh hasil testing pada submissionmu sebelum dikirimkan. Karena kriteria pada submission ini akan diperiksa setelah seluruh berkas testing berhasil dijalankan.
-
-
-## Tips Submission Akhir
-
-Jika kamu menerapkan modular pada project, Anda dapat memanfaatkan berkas `test.sh` pada repository ini. Berkas tersebut dapat mempermudah proses testing melalui *terminal* atau *command prompt*. Sebelumnya menjalankan berkas tersebut, ikuti beberapa langkah berikut:
 1. Install terlebih dahulu aplikasi sesuai dengan Operating System (OS) yang Anda gunakan.
     - Bagi pengguna **Linux**, jalankan perintah berikut pada terminal.
         ```
