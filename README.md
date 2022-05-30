@@ -1,8 +1,6 @@
-<<<<<<< HEAD
-# ditonton-flutter-expert-project
-=======
 # Flutter Ditonton App
->>>>>>> 71070cad2df7dde0a1c1d577eecb5d8f3ce4b6bd
+  ditonton-flutter-expert-project
+
 
 1. Install terlebih dahulu aplikasi sesuai dengan Operating System (OS) yang Anda gunakan.
     - Bagi pengguna **Linux**, jalankan perintah berikut pada terminal.
