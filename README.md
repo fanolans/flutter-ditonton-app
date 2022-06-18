@@ -1,3 +1,5 @@
+[![Codemagic build status](https://api.codemagic.io/apps/62ab91c84155849e32a6a40d/62ab91c84155849e32a6a40c/status_badge.svg)](https://codemagic.io/apps/62ab91c84155849e32a6a40d/62ab91c84155849e32a6a40c/latest_build)
+
 # Flutter Ditonton App
   ditonton-flutter-expert-project
 
