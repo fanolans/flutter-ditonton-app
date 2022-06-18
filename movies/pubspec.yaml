@@ -17,11 +17,11 @@ dependencies:
   firebase_core: ^1.17.1
   firebase_crashlytics: ^2.8.1
 
-  # module
   core:
     path: ../core
   watchlist:
     path: ../watchlist
+
 dev_dependencies:
   flutter_test:
     sdk: flutter

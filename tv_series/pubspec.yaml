@@ -17,7 +17,6 @@ dependencies:
   firebase_core: ^1.17.1
   firebase_crashlytics: ^2.8.1
 
-  # modular
   core:
     path: ../core
   watchlist:

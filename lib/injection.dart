@@ -9,14 +9,12 @@ import 'package:core/data/repositories/movie_repository_impl.dart';
 import 'package:core/data/repositories/tvseries_repository_impl.dart';
 import 'package:core/utils/ssl_helper.dart';
 import 'package:get_it/get_it.dart';
-import 'package:http/io_client.dart';
 import 'package:movies/domain/repositories/movie_repository.dart';
 import 'package:movies/domain/usecase/get_movie_detail.dart';
 import 'package:movies/domain/usecase/get_movie_recommendations.dart';
 import 'package:movies/domain/usecase/get_now_playing_movies.dart';
 import 'package:movies/domain/usecase/get_popular_movies.dart';
 import 'package:movies/domain/usecase/get_top_rated_movies.dart';
-
 import 'package:movies/presentation/bloc/movie_detail/movie_detail_bloc.dart';
 import 'package:movies/presentation/bloc/movie_recommendations/movie_recommendations_bloc.dart';
 import 'package:movies/presentation/bloc/now_playing_movies/now_playing_movies_bloc.dart';
@@ -51,7 +49,7 @@ import 'package:watchlist/presentation/bloc/watchlist_tvseries/watchlist_tvserie
 final locator = GetIt.instance;
 
 Future<void> init() async {
-  // BLoC - Movies
+  // BLoC Movies
   locator.registerFactory<NowPlayingMovieBloc>(
     () => NowPlayingMovieBloc(
       locator(),
@@ -91,7 +89,7 @@ Future<void> init() async {
     ),
   );
 
-  // BLoC - TvSeries
+  // BLoC TvSeries
   locator.registerFactory(
     () => OnTheAirTvseriesBloc(
       locator(),

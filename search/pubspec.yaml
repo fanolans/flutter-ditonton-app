@@ -22,6 +22,7 @@ dependencies:
     path: ../tv_series
   core:
     path: ../core
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
